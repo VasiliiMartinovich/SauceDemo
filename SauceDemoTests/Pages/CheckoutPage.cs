@@ -12,8 +12,14 @@ public class CheckoutPage : BasePage
     private readonly By _firstName = By.Id("first-name");
     private readonly By _lastName = By.Id("last-name");  
     private readonly By _zipcode = By.Id("postal-code");
-    private readonly By _continueButton = By.ClassName("submit-button btn btn_primary cart_button btn_action");
+    private readonly By _continueButton = By.CssSelector("[data-test='continue']");
 
+    
+    public bool IsCheckoutPageDisplayed() =>
+        _driver.FindElement(_firstName).Displayed
+        && _driver.FindElement(_lastName).Displayed
+        && _driver.FindElement(_zipcode).Displayed
+        && _driver.FindElement(_continueButton).Displayed;
     public CheckoutPage SetFirstName(string firstname)
     {
         _driver.FindElement(_firstName).SendKeys(firstname);
@@ -32,9 +38,9 @@ public class CheckoutPage : BasePage
         return this;
     }
     
-    // public OverviewPage ClickContinueButton()
-    // {
-    //     _driver.FindElement(_continueButton).Click();
-    //     return new OverviewPage (_driver);
-    // }
+    public OverviewPage ClickContinueButton()
+    {
+        _driver.FindElement(_continueButton).Click();
+        return new OverviewPage (_driver);
+    }
 }

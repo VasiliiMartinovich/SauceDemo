@@ -17,7 +17,7 @@ public class ProductPage : BasePage
     
     public bool IsCartIconDisplayed()
     {
-        return _driver.FindElement(_shoppingCart)?.Displayed ?? false; //Если элемент существует, проверь Displayed. Если результат оказался null, используй false.
+        return _driver.FindElement(_shoppingCart)?.Displayed ?? false; //Если элемент существует, проверяем Displayed. Если результат оказался null, используем false.
     }
 
     public ProductPage AddToCart()
@@ -28,7 +28,7 @@ public class ProductPage : BasePage
 
     public int GetCartCounter()
     {
-        return int.Parse(_driver.FindElement(By.CssSelector(".shopping_cart_badge")).Text);
+        return int.Parse(_driver.FindElement(_shoppingCartCounter).Text);
     }
 
     public bool IsTitleDisplayed()

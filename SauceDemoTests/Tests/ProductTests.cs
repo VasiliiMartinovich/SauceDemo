@@ -7,9 +7,6 @@ public class ProductTests : BaseTests
     [SetUp]
     public void SetUp()
     {
-        driver = new ChromeDriver();
-        driver.Navigate().GoToUrl("https://www.saucedemo.com/");
-
         LoginPage loginPage = new LoginPage(driver);
         ProductPage productPage = loginPage.Login();
     }
