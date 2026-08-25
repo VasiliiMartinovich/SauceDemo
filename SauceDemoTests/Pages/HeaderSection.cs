@@ -20,9 +20,13 @@ public class HeaderSection : BasePage
         return this;
     }
 
-    public HeaderSection ClickLogoutButton()
+    public LoginPage ClickLogoutButton()
     {
         _driver.FindElement(_btnLogout).Click();
-        return new HeaderSection(_driver);
+        return new LoginPage(_driver);
+    }
+    public LoginPage Logout()
+    {
+        return OpenSideBar().ClickLogoutButton();
     }
 }

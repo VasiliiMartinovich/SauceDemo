@@ -1,0 +1,33 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=069da27a_002D9cc6_002D4995_002Db5db_002Dae985c4a235a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddProductToCart" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.AddProductToCart&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5855f4ff_002Deed4_002D4422_002D8b3f_002Dadda5acf8033/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="NavigateToProductPage #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.NavigateToProductPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.AddProductToCart&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.LoginTest.LoginSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.LoginTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.NavigateToCart&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.RemoveProductFromCart&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a5b22bda_002D3d0a_002D44b1_002Dace3_002D0d75f0a68d97/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="NavigateToProductPage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.NavigateToProductPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.EmptyCartCheck&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.LoginTest.LoginPageDisplayed&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.ProductTests.AllProductsHaveRequiredElements&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.ProductTests.NavigateToProductPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests.ProductsHaveRequiredElements&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.ProductTests.GetCartCounter&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CartTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.ProductTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CheckoutTests.CheckoutPageDisplayed&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CheckoutTests.FullFlow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.CheckoutTests.FullPurchaseFlow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B702BD7-9D1C-4E1B-A90C-D5231E05566B::net10.0::SauceDemoTests.Tests.LogoutTests.Logout&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

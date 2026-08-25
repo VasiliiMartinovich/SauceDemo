@@ -25,6 +25,6 @@ public class OverviewPage : BasePage
     public bool IsSuccessMessageDisplayed()
     {
         return _driver.FindElements(_txtSuccess)
-            .Count > 0;
+            .Count == 1;
     }
 }

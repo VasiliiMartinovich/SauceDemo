@@ -37,7 +37,7 @@ public class CartTests : BaseTests
     [Test]
     public void EmptyCartCheck()
     {
-        ProductPage productPage = new ProductPage(driver);
+       ProductPage productPage = new ProductPage(driver);
         CartPage cartPage = productPage.OpenCart();
         Assert.That(cartPage.GetRemoveButtonsCount(), Is.EqualTo(0));
     }
